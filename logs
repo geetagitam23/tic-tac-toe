@@ -1,0 +1,36 @@
+def log_game_state(board):
+    for row in board:
+        print(" | ".join(row))
+        print("-" * 9)
+
+def log_game_outcome(winner):
+    if winner == "O":
+        print("AI wins! You lose.")
+    elif winner == "X":
+        print("Congratulations! You win!")
+    else:
+        print("It's a tie!")
+
+def log_player_move(row, col):
+    print(f"Player moves to row {row}, column {col}")
+
+def log_ai_move(row, col):
+    print(f"AI moves to row {row}, column {col}")
+
+def log_invalid_move():
+    print("Invalid move. Try again.")
+
+def log_game_start():
+    print("Welcome to Tic-Tac-Toe!")
+
+def log_game_end():
+    print("Game over. Thanks for playing!")
+
+def log_minimax_scores(scores):
+    print("Minimax Scores:")
+    for i in range(3):
+        for j in range(3):
+            print(f"Row {i}, Column {j}: {scores[i][j]}")
+
+
+
