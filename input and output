@@ -1,0 +1,10 @@
+Player Input: The player inputs their moves by specifying the row and column where they want to place their "X." This input is taken through the command prompt, and the player is prompted to enter the row and column numbers.
+Outputs:
+Game Board: The program displays the current state of the Tic-Tac-Toe game board after each move by both the player and the AI. This output is printed to the command prompt, showing the positions of "X" and "O" on the board.
+
+Game Outcome: The program determines the game outcome and provides the following outputs:
+
+If the AI (playing as "O") wins, it displays "AI wins! You lose."
+If the player (playing as "X") wins, it displays "Congratulations! You win!"
+If the game ends in a tie (no winner), it displays "It's a tie!"
+The primary output is the visual representation of the game board, allowing the player to see the state of the game after each move and determine the outcome of the game based on the displayed messages. The game continues until there is a winner or a tie, and the player interacts with the program through the command prompt for input.
